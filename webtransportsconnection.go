@@ -12,7 +12,7 @@ type webTransportsConnection struct {
 	session *webtransport.Session
 
 	// current stream guarded by mutex
-	stream webtransport.Stream
+	stream *webtransport.Stream
 	sync.Mutex
 }
 
