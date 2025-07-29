@@ -19,9 +19,9 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/philippseith/signalr"
+	"github.com/3ldar/go-signalr"
 
-	"github.com/philippseith/signalr/router"
+	"github.com/3ldar/go-signalr/router"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

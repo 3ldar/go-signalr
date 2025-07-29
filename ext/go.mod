@@ -1,13 +1,13 @@
-module github.com/philippseith/signalr/ext
+module github.com/3ldar/go-signalr/ext
 
 go 1.24.2
 
-replace github.com/philippseith/signalr => /Users/philipp/wspc/go/moj_signalr
+replace github.com/3ldar/go-signalr => /Users/philipp/wspc/go/moj_signalr
 
 require (
 	github.com/go-kit/log v0.2.1
 	github.com/google/uuid v1.6.0
-	github.com/philippseith/signalr v0.6.3
+	github.com/3ldar/go-signalr v0.6.3
 	github.com/redis/go-redis/v9 v9.8.0
 )
 

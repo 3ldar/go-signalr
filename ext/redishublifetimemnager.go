@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/3ldar/go-signalr"
 	"github.com/go-kit/log"
 	"github.com/go-kit/log/level"
 	"github.com/google/uuid"
-	"github.com/philippseith/signalr"
 	"github.com/redis/go-redis/v9"
 )
 

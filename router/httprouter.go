@@ -3,8 +3,8 @@ package router
 import (
 	"net/http"
 
+	"github.com/3ldar/go-signalr"
 	"github.com/julienschmidt/httprouter"
-	"github.com/philippseith/signalr"
 )
 
 // WithHttpRouter is a signalr.MappableRouter factory for signalr.Server.MapHTTP

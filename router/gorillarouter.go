@@ -3,8 +3,8 @@ package router
 import (
 	"net/http"
 
+	"github.com/3ldar/go-signalr"
 	"github.com/gorilla/mux"
-	"github.com/philippseith/signalr"
 )
 
 // WithGorillaRouter is a signalr.MappableRouter factory for signalr.Server.MapHTTP
